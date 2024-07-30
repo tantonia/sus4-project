@@ -1,0 +1,266 @@
+@font-face {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 100;
+    src:  url('../assets/fonts/Titillium/Titillium-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: italic;
+    font-weight: 100;
+    src:  url('../assets/fonts/Titillium/Titillium-ThinItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 300;
+    src:  url('../assets/fonts/Titillium/Titillium-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: italic;
+    font-weight: 300;
+    src:  url('../assets/fonts/Titillium/Titillium-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 400;
+    src:  url('../assets/fonts/Titillium/Titillium-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: italic;
+    font-weight: 400;
+    src:  url('../assets/fonts/Titillium/Titillium-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 600;
+    src:  url('../assets/fonts/Titillium/Titillium-Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: italic;
+    font-weight: 600;
+    src:  url('../assets/fonts/Titillium/Titillium-SemiboldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: 700;
+    src:  url('../assets/fonts/Titillium/Titillium-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: italic;
+    font-weight: 700;
+    src:  url('../assets/fonts/Titillium/Titillium-BoldItalic.otf') format('opentype');
+}
+
+html, body {
+    margin:0;
+    padding:0;
+    font-family: 'Titillium';
+}
+
+.header {
+    position:relative;
+    height:200px;
+}
+
+.eit_logo-wrapper {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:140px;
+    background-color: white;
+}
+
+.eit_logo {
+    height:140px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.sus4-wrapper {
+    margin-top: 140px;
+    padding-top:20px;
+    padding-left: 20px;
+    height:220px;
+    background: linear-gradient(90deg, #034EA2 0%, #CD154F 100%);
+}
+
+.logo {
+    color:white;
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sus4-name {
+    margin:0;
+    margin-left:2%;
+    font-size:2.5rem;
+}
+
+.sus4-logo {
+    height:200px;
+}
+
+.main {
+    min-height:800px;
+    padding:5%;
+}
+
+.main p, .main li {
+    font-size:1.2rem;
+    line-height:30px;
+}
+
+.tablinks {
+    font-family: inherit;
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+.tablinks:hover {
+    color: white;
+    background: linear-gradient(90deg, #034EA2 0%, #CD154F 100%);;
+}
+
+.tab-content a {
+    text-decoration: none;
+    color: inherit;
+}
+.logos-grid {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+
+.logos-grid .partner-link {
+    display:block;
+}
+
+.logos-grid .partner-link .partner-logo {
+    height:120px;
+    width:auto;
+}
+
+.upkip {
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.products-img {
+    height: 380px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.events {
+    height: 220px;
+    width: auto;
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer {
+    position:relative;
+    height:150px;
+    background: linear-gradient(90deg, #034EA2 0%, #CD154F 100%);
+}
+
+.contact-info-wrapper {
+    padding:10px;
+}
+
+.contact-info-wrapper h3 {
+    color:white;
+}
+
+.social-icon {
+    width:40px;
+    height:40px;
+    padding-left: 50px;
+}
+
+@media screen and (max-width:640px) {
+    .header {
+        height:auto;
+    }
+
+    .eit_logo-wrapper {
+        height:80px;
+    }
+
+    .eit_logo {
+        width:100%;
+        height:auto;
+    }
+
+    .sus4-wrapper {
+        margin-top: 80px;
+        padding-bottom:10px;
+    }
+
+    .sus4-name {
+        margin:0;
+        margin-left:.2%;
+        margin-top:3%;
+        font-size:1.8rem;
+    }
+
+    .sus4-logo {
+        height:150px;
+        margin-top:3%;
+    }
+
+    .logos-grid .partner-link .partner-logo {
+        height:60px;
+        width:auto;
+    }
+
+    .upkip {
+        height: 30px;
+        width: auto;
+    }
+
+    .footer {
+        height:130px;
+        padding:30px;
+    }
+
+    .products-img {
+        height: 135px;
+        width: auto;
+    }
+
+    .events {
+        height: 80px;
+        width: auto;
+        overflow: hidden;
+    } 
+
+    .social-icon {
+        width:25px;
+        height:25px;
+    }
+}
